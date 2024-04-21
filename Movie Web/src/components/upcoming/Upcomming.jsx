@@ -9,7 +9,7 @@ const SampleNextArrow = (props) => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
-      <button className='next'>
+      <button className='next' style={{ color: '#fff' }}>
         <i class='fa fa-chevron-right'></i>
       </button>
     </div>
@@ -19,7 +19,7 @@ const SamplePrevArrow = (props) => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
-      <button className='prev'>
+      <button className='prev' style={{ color: '#fff' }}>
         <i class='fa fa-chevron-left'></i>
       </button>
     </div>
@@ -50,7 +50,7 @@ const Upcomming = ({ items, title }) => {
         <div className='container'>
           <div className='heading flexSB'>
             <h1>{title}</h1>
-            <Link to='/'>View All</Link>
+            {/* <Link to='/'>View All</Link> */}
           </div>
           <div className='content'>
             <Slider {...settings}>

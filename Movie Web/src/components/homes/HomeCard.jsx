@@ -38,23 +38,25 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
                 {tags}
               </h4>
             </div>
-            <button className='primary-btn'>
+            <button style={{ cursor: 'pointer', background: '#e50813', outline: 'none', border: 'none', color: '#fff', padding: '12px 40px', fontWeight: '500', fontSize: '17px' }} className='primary-btn'>
               <i className='fas fa-play'></i> PLAY NOW
             </button>
           </div>
           <div className='palyButton row'>
             <Link to={`/singlepage/${id}`}>
-              <button>
+              <button style={{ border: 'none' }}>
                 <div className='img'>
                   <img src='./images/play-button.png' alt='' />
                   <img src='./images/play.png' className='change' />
                 </div>
-                WATCH TRAILER
+                <span style={{ color: '#fff' }}>WATCH TRAILER</span>
+
               </button>
             </Link>
           </div>
         </div>
       </div>
+
     </>
   )
 }

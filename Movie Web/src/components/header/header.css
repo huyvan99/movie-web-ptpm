@@ -6,15 +6,23 @@ header {
   position: relative;
   z-index: 999;
 }
+
 .logo img {
   width: 150px;
   margin-top: 20px;
   margin-right: 30px;
 }
+
 header a {
   color: #fff;
   margin-left: 30px;
 }
+
+header a:hover {
+  color: #e50813;
+
+}
+
 header i {
   width: 40px;
   height: 40px;
@@ -24,21 +32,26 @@ header i {
   border: 2px solid #fff;
   margin: 0 10px;
 }
+
 header button {
   border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
 }
+
 .toggle {
   display: none;
 }
+
 @media only screen and (max-width: 768px) {
   header nav .flexSB {
     display: none;
   }
+
   .account {
     display: none;
   }
+
   .navMenu-list {
     display: flex;
     flex-direction: column;
@@ -50,11 +63,13 @@ header button {
     height: 100vh;
     z-index: 9999;
   }
+
   header ul li {
     align-items: left;
     margin-top: 30px;
     padding: 0 50px;
   }
+
   .toggle {
     display: block;
     position: absolute;

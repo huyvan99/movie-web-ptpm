@@ -9,13 +9,15 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <ul className='flex'>
-              <li>Terms of Use</li>
-              <li>Privacy-Policy</li>
-              <li>Blog</li>
-              <li>FAQ</li>
-              <li>Watch List</li>
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li><a href="#">Privacy-Policy</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Watch List</a></li>
             </ul>
-            <p>© 2022 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</p>
+            <p style={{ fontSize: '14px' }}>© 2024 <span style={{ color: 'red', fontSize: '14px' }}>HUS Film Recommender</span>. All Rights Reserved. All content on this platform is for educational purposes only. No copyright infringement intended. All materials used are for educational and demonstration purposes. Any similarity to real companies or products is purely coincidental.</p>
           </div>
           <div className='box'>
             <h3>Follow Us</h3>
@@ -25,7 +27,7 @@ const Footer = () => {
             <i className='fab fa-instagram'></i>
           </div>
           <div className='box'>
-            <h3>Streamit App</h3>
+            <h3>App Market</h3>
             <div className='img flexSB'>
               <img src='https://img.icons8.com/color/48/000000/apple-app-store--v3.png' />
               <span>App Store</span>

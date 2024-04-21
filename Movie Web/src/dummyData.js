@@ -117,6 +117,39 @@ export const latest = [
   },
 ]
 
+export const cinema = [
+  {
+    id: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BZTk2ZmUwYmEtNTcwZS00YmMyLWFkYjMtNTRmZDA3YWExMjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR6,0,101,150_.jpg",
+    name: "King of Jungle",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 2,
+    cover: "../images/upcome/u1.jpg",
+    name: "The illusion",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 3,
+    cover: "../images/upcome/u7.jpg",
+    name: "Latest Movie",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 4,
+    cover: "../images/upcome/u6.jpg",
+    name: "Latest two",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 5,
+    cover: "../images/upcome/u4.jpg",
+    name: "Latest Three",
+    time: "2hr : 38mins",
+  },
+]
+
 export const trending = [
   {
     id: 1,
@@ -184,6 +217,37 @@ export const recommended = [
     id: 3,
     cover: "../images/upcome/u3.jpg",
     name: "Another Danger",
+    time: "2hr : 38mins",
+  },
+
+  {
+    id: 6,
+    cover: "../images/rec/rec5.jpg",
+    name: "Thế giới ma quái 2",
+    time: "2hr : 18mins",
+  },
+  {
+    id: 7,
+    cover: "../images/rec/rec6.jpg",
+    name: "Loki 2",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 8,
+    cover: "../images/rec/rec7.jpg",
+    name: "Đảo hải tặc",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 9,
+    cover: "../images/rec/rec8.jpg",
+    name: "John Wich 4",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 10,
+    cover: "../images/rec/rec9.jpg",
+    name: "Người nổi tiếng",
     time: "2hr : 38mins",
   },
 ]
